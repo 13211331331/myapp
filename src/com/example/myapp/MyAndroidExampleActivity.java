@@ -46,7 +46,7 @@ public class MyAndroidExampleActivity extends Activity implements
         b2.setOnClickListener(this);
         b3.setOnClickListener(this);
         b4.setOnClickListener(this);
-         /*
+        /*
         b5.setOnClickListener(this);
         b6.setOnClickListener(this);
         b7.setOnClickListener(this);
@@ -108,7 +108,6 @@ public class MyAndroidExampleActivity extends Activity implements
                 intent.setClass(getApplicationContext(), Timetest.class);
                 startActivity(intent);
                 break;
-
             case R.id.b4:
                 intent.setClass(getApplicationContext(), ButtonTest.class);
                 startActivity(intent);
@@ -117,85 +116,66 @@ public class MyAndroidExampleActivity extends Activity implements
             case R.id.b5:
                 intent.setClass(getApplicationContext(), ListTest.class);
                 startActivity(intent);
-
                 break;
-
             case R.id.b6:
                 intent.setClass(getApplicationContext(), SurfaceTest.class);
                 startActivity(intent);
-
                 break;
-
             case R.id.b7:
                 intent.setClass(getApplicationContext(), MenuTest.class);
                 startActivity(intent);
-
                 break;
             case R.id.b8:
                 intent.setClass(getApplicationContext(), DialogTest.class);
                 startActivity(intent);
-
                 break;
             case R.id.b9:
                 intent.setClass(getApplicationContext(), TostTest.class);
                 startActivity(intent);
-
                 break;
             case R.id.b10:
                 intent.setClass(getApplicationContext(), ProgressDialogTest.class);
                 startActivity(intent);
-
                 break;
             case R.id.b11:
                 intent.setClass(getApplicationContext(), TabTest.class);
                 startActivity(intent);
-
                 break;
             case R.id.b12:
                 intent.setClass(getApplicationContext(), GridviewTest.class);
                 startActivity(intent);
-
                 break;
             case R.id.b13:
                 intent.setClass(getApplicationContext(), GalleryTest.class);
                 startActivity(intent);
-
                 break;
             case R.id.b14:
                 intent.setClass(getApplicationContext(), WidgetTest.class);
                 startActivity(intent);
-
                 break;
             case R.id.b15:
                 intent.setClass(getApplicationContext(), NotificationTest.class);
                 startActivity(intent);
-
                 break;
-
             case R.id.b16:
                 intent.setClass(getApplicationContext(), ViewTest.class);
                 startActivity(intent);
-
                 break;
             case R.id.b17:
                 intent.setClass(getApplicationContext(), SlidingDrawerTest.class);
                 startActivity(intent);
-
                 break;
             case R.id.b18:
                 intent.setClass(getApplicationContext(), turntest.class);
                 startActivity(intent);
-
                 break;
             case R.id.b19:
                 intent.setClass(getApplicationContext(), AnimActivity.class);
                 startActivity(intent);
-
                 break;
             case R.id.b20:
                 intent.setClass(getApplicationContext(), MyAppDemo.class);
                 startActivity(intent);
-
                 break;*/
             default:
                 break;
