@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.myapp"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+
+    <!--
+        android:theme="@android:style/Theme.NoTitleBar"  不显示标题
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 全屏显示
+
+    -->
+    <uses-sdk android:minSdkVersion="18"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic">
+        <activity android:name="MyActivity"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MyAndroidExampleActivity" >
+        </activity>
+
+        <activity android:name=".activities.AlarmManager.AlarmTestActivity" >
+        </activity>
+
+        <activity android:name=".activities.AlarmManager.ActionActivity" >
+        </activity>
+
+        <service android:name=".activities.AlarmManager.ActionService" >
+        </service>
+
+        <receiver android:name=".activities.AlarmManager.ActionBroadCast" >
+        </receiver>
+
+
+
+        <activity android:name=".activities.GestureActivity.GestureActivity" >
+        </activity>
+
+        <activity android:name=".activities.GestureActivity.GestureTest" >
+        </activity>
+        <activity android:name=".activities.GestureActivity.GestureActivity1" >
+        </activity>
+
+
+        <activity android:name=".activities.time.ChronoDemo" >
+        </activity>
+        <activity android:name=".activities.time.Timetest" >
+        </activity>
+
+
+    </application>
+</manifest>
