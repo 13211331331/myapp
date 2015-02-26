@@ -53,5 +53,15 @@
         </activity>
 
 
+
+        <activity android:name=".activities.button.ButtonTest" >
+        </activity>
+        <activity android:name=".activities.button.PageFlipperActivity" >
+        </activity>
+        <activity android:name=".activities.button.ButtonState" >
+        </activity>
+        <activity android:name=".activities.button.PathButtonActivity" >
+        </activity>
+
     </application>
 </manifest>
