@@ -11,9 +11,9 @@ import android.widget.LinearLayout;
 public class Timetest extends Activity {
 
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle bundle) {
 		// TODO Auto-generated method stub
-		super.onCreate(savedInstanceState);
+		super.onCreate(bundle);
 		LinearLayout view = new LinearLayout(this);
 		setContentView(view);
 		Button button = new Button(this);
